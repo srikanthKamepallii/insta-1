@@ -1,0 +1,149 @@
+.userprofileimg{
+    height: 220px;
+    width: 220px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin: 20px;
+    border: 1px solid;
+    padding: 10px;
+}
+.updetails{
+    margin: 20px;
+}
+.upposts{
+    margin-right: 30px;
+}
+.varun1{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-left: 20px;
+}
+.gridicon{
+    height: 25px;
+    width: 25px;
+    margin-top: -4px;
+    margin-left: 20px;
+}
+.up-posts{
+    font-size: 25px;
+    margin-left: 15px;
+    margin-top: 20px;
+}
+.upfront{
+    display: flex;
+}
+.mobilefront{
+    display: none;
+    
+}
+.upostimg{
+    height: 250px;
+    width: 250px;
+    margin: 20px;
+}
+.addprofile{
+    border: none;
+    background-color: white;
+    margin-left: -25px;
+
+}
+.userprofileimg-placeholder {
+    width: 500px; /* Adjust size as needed */
+    height: 500px; /* Adjust size as needed */
+    background-color: #ccc; /* Placeholder color */
+    border-radius: 50%; /* Makes the div a circle */
+    display: inline-block;
+  }
+  .editbtn{
+    padding: 5px;
+    margin-left: 70px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    border: none;
+  }
+  .upost{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 90px;
+  }
+
+
+@media screen and (max-width:896px) {
+
+    .userprofileimg{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin: 10px;
+}
+.updetails{
+    margin: 10px;
+}
+.upposts{
+    margin-right: 15px;
+    font-size: 15px;
+}
+.pname{
+    font-size: 18px;
+    margin-left: 15px;
+}
+.paragraph{
+    font-size: 15px;
+    margin-left: 10px;
+}
+.varun1{
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-left: 20px;
+}
+.gridicon{
+    height: 20px;
+    width: 20px;
+    margin-top: -4px;
+    margin-left: 20px;
+}
+.up-posts{
+    font-size: 15px;
+    margin-left: 10px;
+    margin-top: 20px;
+}
+.upfront{
+    display: none;
+}
+.mobilefront{
+    display: block;
+    
+}
+.upostimg{
+    height: 130px;
+    width: 80px;
+    margin: 10px;
+}
+.addprofile{
+    border: none;
+    background-color: white;
+    margin-left: -19px;
+
+}
+.editbtn{
+    padding: 3px;
+    margin-left: 10px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    border: none;
+  }
+  .editprofile{
+    display: none;
+  }
+  .upost{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 35px;
+  }
+
+}

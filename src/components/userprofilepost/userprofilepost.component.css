@@ -1,0 +1,165 @@
+.user1 {
+    width: 70px; /* Set width to a fixed size */
+    height: 70px;/* Set height to a fixed size */
+    border-radius: 50%; /* Make the border round */
+    object-fit: cover; /* Ensure the image covers the entire container */
+}
+.uname{
+    margin-left: 10px;
+    margin-top: 10px;
+    font-size: 25px;
+}
+.post1{
+    height: 450px;
+    width: 100%;
+    margin: 0px;
+}
+.hbtn{
+    height: 50px;
+    width: 50px;
+    margin-left: 10px;
+}
+.hbtn-heart{
+    height: 50px;
+    width: 50px;
+    margin-left: 10px;
+}
+.ulikes{
+    margin-left: 10px;
+    font-size: 20px;
+}
+.heart-icon {
+    color: black; /* Default color */
+  }
+  
+  .red {
+    height: 50px;
+    width: 50px;
+    margin-left: 10px;
+    color: red; 
+   /* fill: red;  */
+
+  }
+  .uerpostpic{
+    margin-left: 150px;
+    margin-right: 200px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+  }
+
+
+
+
+
+
+  .userpostpic {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    margin-left: 150px;
+    margin-right: 200px;  
+    margin-bottom: 20px;  
+}
+
+.user1 {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+.uname {
+    margin-left: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.post1 {
+    width: 100%;
+    height: 750px;
+}
+
+.hbtn-heart, .red {
+    font-size: 24px;
+    cursor: pointer;
+}
+
+.hbtn {
+    font-size: 24px;
+    cursor: pointer;
+    margin-left: 10px;
+}
+
+.ulikes {
+    display: block;
+    margin-top: 0px;
+}
+
+
+
+.no-results {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.nosearchimg {
+    width: 400px; /* Adjust the size as needed */
+    height: 350px;
+}
+
+.no-results p {
+    font-size: 18px;
+    color: #777;
+}
+
+
+
+@media screen and (max-width:896px) {
+    .post1{
+        height: 250px;
+        width: 100%;
+    }
+    .hbtn{
+        height: 25px;
+        width: 25px;
+        margin-left: 10px;
+    }
+    .ulikes{
+        margin-left: 10px;
+        font-size: 14px;
+    }
+    .red {
+        height: 25px;
+        width: 25px;
+        margin-left: 5px;
+        color: red; 
+       /* fill: red;  */
+    
+      }
+      .hbtn-heart{
+        height: 25px;
+        width: 25px;
+        margin-left: 5px;
+    }
+    .uerpostpic{
+        margin-left: 10px;
+        margin-right: 10px;
+      }
+      
+  .userpostpic {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    margin-left: 10px;
+    margin-right: 10px;  
+  }
+      .uname{
+        margin-left: 10px;
+        margin-top: 10px;
+        font-size: 15px;
+    }
+    .user1 {
+        width: 50px; /* Set width to a fixed size */
+        height: 50px;/* Set height to a fixed size */
+        border-radius: 50%; /* Make the border round */
+        object-fit: cover; /* Ensure the image covers the entire container */
+    }
+    
+}

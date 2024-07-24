@@ -1,0 +1,70 @@
+.navlogo{
+    height: 50px;
+    width: 80px;
+    margin-left: 80px;
+}
+.navsearch{
+    margin-left: 50px;
+}
+.navhome{
+    margin-left: 100px;
+}
+.navtext{
+    margin-left: 30px;
+}
+.profilesearch{
+    padding: 10px;
+    width: 50%;
+    margin-left: 350px;
+}
+.search-results{
+    margin-left: 400px;
+    margin-right: 630px;
+}
+.no-results {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 700px; /* Adjust height as needed */
+}
+
+.no-results img {
+    height: 500px;
+    width: 500px;
+}
+
+
+
+
+@media screen and (max-width:896px) {
+    .navlogo{
+        height: 50px;
+        width: 70px;
+        margin-left: 10px;
+    }
+    .navsearch{
+        margin-left: 0px;
+    }
+    .navtext{
+        margin-left: 0px;
+    }
+    .profilesearch{
+        padding: 10px;
+        width: 70%;
+        margin-left: 50px;
+    }
+    .search-results{
+        margin-left: 20px;
+        margin-right: 0px;
+    }
+    
+    .no-results img {
+        height: 300px;
+        width: 300px;
+    }
+    
+
+    
+
+    
+}

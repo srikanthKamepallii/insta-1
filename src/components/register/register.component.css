@@ -1,0 +1,44 @@
+.register{
+    margin-left: 250px;
+    width: 70%;
+}
+.main-text{
+    margin-left: 200px;
+}
+.main-log{
+    height: 70px;
+    width: 100px;
+    margin-left: 250px;
+}
+.regi-down{
+    margin-left: 150px;
+    margin-top: 20px;
+}
+.rlabel-text{
+margin-left: 0px;
+margin-bottom: 10px;
+}
+
+@media screen and (max-width:896px) {
+    .register{
+        padding: 5px;
+        margin-left: 50px;
+        margin-top: 15px;
+    }
+    .main-text{
+        margin-left: 40px;
+    }
+    .main-log{
+        height: 70px;
+        width: 100px;
+        margin-left: 60px;
+    }
+    .regi-down{
+        margin-left: 20px;
+        margin-top: 10px;
+    }
+    .already{
+        margin-left: -10px;
+    }
+    
+}

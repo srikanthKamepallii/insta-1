@@ -1,0 +1,365 @@
+ .log {
+    height: 70px;
+    width: 100px;
+    margin-left: 150px;
+}
+
+.login {
+    border-radius: 10px;
+    padding: 20px;
+    margin-top: 0px;
+}
+
+.log-text {
+    width: 70%;
+    margin-bottom: 10px;
+}
+
+.main-t {
+    margin-left: 120px;
+    font-size: 30px;
+}
+
+.forgot {
+    margin-left: 280px;
+    margin-bottom: 10px;
+}
+
+.label-text {
+    font-size: 15px;
+    margin-left: 0px;
+    margin-bottom: 10px;
+}
+
+.lg-img {
+    height: 400px;
+    width: 450px;
+}
+
+.lg-down {
+    margin-top: 20px;
+    margin-left: 50px;
+}
+
+.textflied {
+    height: 35px;
+    width: 430px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+.resetp {
+    border: 1px solid;
+    border-radius: 5px;
+    height: 40px;
+    width: 430px;
+    background-color: rgb(147, 238, 147);
+    padding-left: 5px;
+    margin-bottom: 20px;
+}
+.rpassword{
+    margin-top: 100px;
+}
+.main-rt{
+    margin-bottom: 30px;
+}
+.lg-rem{
+    margin-left: 100px;
+}
+
+
+@media screen and (max-width:876px) {
+    .img {
+        display: none;
+    }
+
+    .log {
+        height: 30px;
+        width: 50px;
+        margin-left: 80px;
+        margin-top: 20px;
+        margin-bottom: 5px;
+    }
+
+    .main-t {
+        margin-left: 70px;
+        font-size: 15px;
+    }
+
+    .log-text {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+
+    .login {
+        margin-left: 0px;
+        padding: 0px;
+        margin-top: 0px;
+    }
+
+    .lg-down {
+        margin-top: 10px;
+        margin-left: 0px;
+        font-size: 10px;
+    }
+
+    .label-text {
+        font-size: 14px;
+        margin-left: 0px;
+        margin-bottom: 10px;
+    }
+
+    .textflied {
+        height: 30px;
+        width: 200px;
+        border-radius: 5px;
+    }
+
+    .forgot {
+        margin-bottom: 10px;
+        margin-left: 150px;
+        font-size: 10px;
+    }
+    .main-rt {
+        margin-left: 30px;
+        font-size: 16px;
+        margin-bottom: 30px;
+    }
+
+    .resetp {
+        border: 1px solid;
+        border-radius: 5px;
+        height: 40px;
+        font-size: 13px;
+        width: 200px;
+        background-color: rgb(147, 238, 147);
+    }
+
+    .resetm {
+        padding-left: 8px;
+    }
+    .rpassword{
+        display: block;
+        margin-top: 80px;
+    }
+    .lg-rem{
+        margin-left: 0px;
+        font-size: 15px;
+    }
+}
+
+
+
+
+/* General styles for login component */
+.login-container {
+    display: flex;
+    padding: 20px;
+}
+
+.login-image {
+    flex: 1;
+}
+
+.login-image img {
+    width: 100%;
+    height: auto;
+}
+
+.login-form-container {
+    flex: 1;
+    margin-left: 0px;
+}
+
+.login-logo {
+    height: 70px;
+    width: 100px;
+    margin-left: 250px;
+}
+.label-text{
+    margin-left: 90px;
+    margin-bottom: 10px;
+}
+.resetlabel-text{
+    margin-left:100px;
+    margin-bottom: 10px;
+}
+
+.login-form {
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.login-title {
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+.login-input-container {
+    width: 70%;
+    margin: 0 auto 10px;
+}
+
+.login-input {
+    width: 100%;
+    height: 35px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    padding: 5px;
+}
+
+.login-forgot {
+    text-align: right;
+    margin-bottom: 10px;
+    margin-right: 90px;
+}
+
+.login-button-container {
+    text-align: center;
+}
+
+.login-button {
+    width: 70%;
+    height: 35px;
+    border-radius: 5px;
+}
+
+.signup-link {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.reset-password-container {
+    margin-top: 100px;
+}
+
+.reset-password-title {
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 30px;
+}
+
+.reset-password-message {
+    text-align: center;
+    background-color: rgb(147, 238, 147);
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+.reset-password-input-container {
+    width: 70%;
+    margin: 0 auto 10px;
+}
+
+.reset-password-input {
+    width: 100%;
+    height: 35px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    padding: 5px;
+}
+
+.reset-password-button-container {
+    text-align: center;
+}
+.reset-password-message{
+    width: 90%;
+    margin-left: 20px;
+}
+.reset-password-button {
+    width: 70%;
+    height: 35px;
+    border-radius: 5px;
+}
+
+.back-to-login {
+    text-align: center;
+    margin-top: 20px;
+}
+
+#errorMessages{
+margin-left: 60px;
+border: 0px solid;
+padding: 3px;
+color: red;
+}
+.error-message {
+    color: red;
+}
+
+/* Responsive styles */
+@media screen and (max-width: 876px) {
+    .login-container {
+        flex-direction: column;
+        align-items: center;
+        padding: 20px;
+    }
+
+    .login-image {
+        display: none;
+    }
+
+    .login-logo {
+        height: 70px;
+        width: 100px;
+        margin-left: 40px;
+    }
+
+    .login-title {
+        font-size: 30px;
+    }
+    .label-text{
+        margin-left: 10px;
+    }
+    .resetlabel-text{
+        margin-left:10px;
+        margin-bottom: 10px;
+    }
+
+    .login-input-container,
+    .reset-password-input-container {
+        width: 100%;
+    }
+
+    .login-input,
+    .reset-password-input {
+        width: 100%;
+        height: 30px;
+    }
+
+    .login-forgot {
+        text-align: right;
+        margin-right: 0px;
+        font-size: 12px;
+    }
+    .login-button{
+        width: 100%;
+    }
+
+    .signup-link {
+        font-size: 12px;
+    }
+
+    .reset-password-title {
+        font-size: 20px;
+    }
+
+    .reset-password-message {
+        font-size: 14px;
+    }
+    .reset-password-button{
+        width: 100%;
+    }
+
+    .back-to-login {
+        font-size: 12px;
+    }
+    #errorMessages{
+        margin-left: 20px;
+        border: 0px solid;
+        padding: 3px;
+        color: red;
+        }
+        
+}

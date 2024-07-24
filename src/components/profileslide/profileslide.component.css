@@ -1,0 +1,31 @@
+.s1 {
+    width: 100px; /* Set width to a fixed size */
+    height: 100px;/* Set height to a fixed size */
+    border-radius: 50%; /* Make the border round */
+    object-fit: cover; /* Ensure the image covers the entire container */
+}
+.stext{
+    margin-left: 40px;
+    margin-top: 10px;
+}
+.slider{
+    margin-left: 100px;
+    margin-right: 180px;
+}
+@media screen and (max-width:896px) {
+    .s1{
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+        object-fit: cover;
+    }
+    .stext {
+        margin-left: 6px;
+        font-size: 14px;
+    }
+    .slider{
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+    
+}
